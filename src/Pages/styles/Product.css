@@ -1,0 +1,96 @@
+.breadcrumb{
+    display: flex;
+    align-items: center;
+    gap:8px;
+    color: grey;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 60px 170px;
+    text-transform: capitalize;
+}
+.breadcrumb img{
+    height: 10px;
+}
+.productDisplay{
+    display:flex;
+    margin: 0px 170px 140px 170px;
+
+}
+.displayLeft{
+    display: flex;
+    gap:17px;
+}
+
+.mainImg{
+    width: 586px;
+    height: 700px;
+}
+.displayRight{
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+.displayRight h1{
+    color: black;
+    text-align: left;
+    width: 450px;
+    text-wrap:none;
+    font-size: 25px;
+    font-weight:600;
+}
+.productDisplayRightStar{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    gap:5px;
+    color: #1c1c1c;
+    font-size: 16px;
+}
+.productDisplayRightPrices{
+    display: flex;
+    margin: 20px 0px;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.productOldPrice{
+    color: rgb(113, 111, 111);
+    text-decoration: line-through;
+}
+.productNewPrice{
+    color:brown;
+}
+.rightProductDesc{
+    margin-top: 10px;
+    text-align: left;
+}
+.productSize h1{
+    margin-top:45px;
+    color: rgb(53, 52, 52);
+    font-size: 20px;
+    font-weight: 600;
+}
+.productDisplaySize{
+    display: flex;
+    margin: 20px 0px;
+    gap: 20px;;
+}
+.productDisplaySize div{
+     padding: 18px 24px;
+     background: rgb(196, 218, 225);
+     border: 1px solid lightgrey;
+     border-radius: 3px;
+     cursor: pointer;;
+}
+.displayRight button{
+    padding: 20px 30px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(217, 123, 9);
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

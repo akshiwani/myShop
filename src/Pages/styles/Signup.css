@@ -1,0 +1,77 @@
+.SignupForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px;
+    border-radius: 5px;
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+    margin:150px;
+    margin-top: 20px;;
+    padding:60px;
+    height:80vh;
+}
+
+.FieldError{
+    color:red;
+    font-size:15px;
+    padding-left: 20px;
+}
+fieldset{
+    text-align: left;
+    background-color: rgb(240, 198, 248);
+    color: black;
+}
+h2{
+    margin-left: 45px;
+    font-size: 25px;;
+    font-weight: 700;
+}
+.FormField{
+    padding:20px;
+    font-size: 20px;
+    text-align: left;
+    justify-content: center; 
+    
+}
+label{
+    /*margin-right:50px;*/
+    text-align: left;
+    margin-left:20px;
+    margin-right: 50px;
+}
+input{
+    width:40%;
+    font-size: 15px;
+    padding:8px;
+    resize:vertical;
+    float:right;   
+}
+button{
+    margin-top:30px;
+    padding: 10px;
+    background-color: black;
+    color:white;
+    width:30%;
+    font-size: 20px;
+    margin-left: 45px;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+button:disabled{
+    cursor:not-allowed;
+    opacity:0.6;
+    background-color: grey;
+}
+.existingAccount{
+    margin-top:20px;
+    color:rgb(32, 30, 30);
+    font-size: 18px;
+    font-weight:600;
+}
+.existingAccount span{
+    /* background-color:rgb(105, 52, 108); */
+    color: rgb(10, 10, 10);
+    font-weight: 600;;
+}
